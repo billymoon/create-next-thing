@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "sanity-nextjs",
+  "version": "1.0.0",
+  "author": "Sanity <hello@sanity.io>",
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "start": "lerna run start --parallel",
+    "build": "lerna run build --parallel",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.2"
+  }
+}

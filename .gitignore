@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+*.tmp
+my-app/
+
+lib/templates/default/package-lock.json
+lib/templates/default/.next
